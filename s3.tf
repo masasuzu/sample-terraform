@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "main" {
-  bucket = "masasuzu.net"
+  bucket = "sample-s3-bucket-sugoiyatsu"
   acl    = "private"
 
   tags = {
-    Name        = "masasuzu.net"
+    Name        = "sample-s3-bucket-sugoiyatsu"
     Environment = "Dev"
     SomeTag     = "hogehoge"
   }
