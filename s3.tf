@@ -5,5 +5,6 @@ resource "aws_s3_bucket" "main" {
   tags = {
     Name        = "masasuzu.net"
     Environment = "Dev"
+    SomeTag     = "hogehoge"
   }
 }
